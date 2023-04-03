@@ -150,6 +150,10 @@ hr{
         margin:30px 0 20px 0;
     }
 
+    .menu a {
+        margin:5px;
+    }
+
     .hero_img{
         width:100%;
    
@@ -163,6 +167,10 @@ hr{
     .clips{
         width:300px;
         flex-direction: column;/* 플렉스-방햐ㅐㅇ:컬럼(=열,수직)*/
+    }
+
+    .clip:nth-child(1) {
+        margin-right: 0;
     }
 
     hr{
