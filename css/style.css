@@ -74,19 +74,51 @@ LoVe,HAte ==> 러브~헤이트~ */
     font-size: 0; /* 글자 크기 : 0 (없음, 표시x, 글자마다 자동으로 생성되는 여백x*/
 }
 
+.clip a {
+    width: 100px;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.clip a:hover{
+    font-size:14px;
+    background-color: #005891;
+}
+
+.clip a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+
 .clip:nth-child(1){
     margin-right:50px;
 }
 
 .clip h2 {
-    font-size: 20px;
+    
     font-weight: bold;
 }
 
 .clip h2, .clip p {
-    font-size: 16px;
+    
     margin:20px;
     text-align: center;
+}
+
+.clip h2 {
+    font-size: 22px;
+}
+
+.clip p{
+    font-size:16px;
 }
 
 .social_media{
@@ -169,8 +201,25 @@ hr{
         flex-direction: column;/* 플렉스-방햐ㅐㅇ:컬럼(=열,수직)*/
     }
 
+    .clip{
+        min-height:300px;
+        border: 1px solid lightblue
+    }
+
     .clip:nth-child(1) {
         margin-right: 0;
+    }
+
+    .clip a {
+        width: 100px;
+        display:block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .clip a:hover{
+        font-size:14px;
+        background-color: #005891;
     }
 
     hr{
